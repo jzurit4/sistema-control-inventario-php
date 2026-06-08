@@ -1,0 +1,46 @@
+# Sistema operativo Windows/macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archivos temporales de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs y temporales
+*.log
+logs/
+tmp/
+temp/
+
+# Archivos comprimidos o respaldos
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bak
+*.backup
+
+# Videos o material de apoyo que no corresponde al codigo fuente
+*.mp4
+*.mov
+*.avi
+
+# Dependencias si se agregan en el futuro
+vendor/
+node_modules/
+
+# Variables de entorno o configuracion sensible
+.env
+.env.*
+config/db.local.php
+config/*.local.php
+
+# Archivos generados por pruebas o despliegue local
+coverage/
+build/
+dist/
